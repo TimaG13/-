@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../fonts/CenturyGothic (1)/CenturyGothic.eot');
+    src: local('Century Gothic'), local('CenturyGothic'),
+    url('../fonts/CenturyGothic (1)/CenturyGothic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CenturyGothic (1)/CenturyGothic.woff') format('woff'),
+    url('../fonts/CenturyGothic (1)/CenturyGothic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Century Gothic-Bold';
+    src: url('../fonts/CenturyGothic (1)/CenturyGothic-Bold.eot');
+    src: local('Century Gothic Bold'), local('CenturyGothic-Bold'),
+    url('../fonts/CenturyGothic (1)/CenturyGothic-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CenturyGothic (1)/CenturyGothic-Bold.woff') format('woff'),
+    url('../fonts/CenturyGothic (1)/CenturyGothic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Century Gothic-regular';
+    src: url('../fonts/CenturyGothic (1)/911Fonts.com_CenturyGothicRegular__-_911fonts.com_fonts_mhpY.ttf');
+    src: local('Century Gothic regular'), local('CenturyGothic-regular'),
+    url('../fonts/CenturyGothic (1)/911Fonts.com_CenturyGothicRegular__-_911fonts.com_fonts_mhpY.ttf?#iefix') format('embedded-opentype'),
+    url('../fonts/CenturyGothic (1)/911Fonts.com_CenturyGothicRegular__-_911fonts.com_fonts_mhpY.ttf') format('woff'),
+    url('../fonts/CenturyGothic (1)/911Fonts.com_CenturyGothicRegular__-_911fonts.com_fonts_mhpY.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.main{
+    font-family: 'Century Gothic',Arial,sans-serif;
+}
+a{
+    font-family: 'Century Gothic-Bold',Arial,sans-serif;
+}
+span{
+    font-family: 'Century Gothic-Bold',sans-serif;
+}
+
+h4{
+    color: #508df5;
+    font-size: 24px;
+    font-family: "Arial Black",sans-serif;
+}
+
+
+/*Детский дневной центр*/
+.centric{
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+.list-group{
+    list-style: none;
+}
+.list-group li span{
+    display: block;
+    font-size: 24px;
+    height: 30px;
+    color: #508df5;
+    border-left: 21px solid #508df5;
+    padding-left: 45px;
+    margin: 50px 0;
+    text-transform: uppercase;
+    font-family: "Arial Black",sans-serif;
+}
+.list-group li p{
+    font-family: "Century Gothic-Bold",sans-serif;
+    font-weight: bold;
+    margin-left: 80px;
+    font-size: 18px;
+    color: #333333;
+}
