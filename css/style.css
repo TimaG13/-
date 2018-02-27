@@ -106,3 +106,79 @@ ul.slu-list li p{
 }
 
 
+/*modal form*/
+.mr-top{
+    margin: 130px auto 0;
+}
+.modal-width{
+    width: 700px;
+}
+.modal-body h3,input,textarea{
+    font-family: "Century Gothic",sans-serif;
+    margin-bottom: 35px;
+}
+.modal-body h3,
+.form-modal button{
+    font-family: "Century Gothic-Bold",sans-serif;
+}
+.input-height{
+    height: 65px;
+}
+form.form-modal span{
+    font-family: "Century Gothic-Bold",sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+}
+form.form-modal .input-height,
+form.form-modal textarea{
+    border: none;
+    border-radius: 0;
+    background: #f6f6f6;
+}
+form.form-modal textarea{
+    max-width: 100%;
+    min-height: 170px;
+    font-size: 18px;
+}
+form.form-modal button{
+    border: 3px solid #000;
+    border-radius: 0;
+    display: block;
+    width: 165px;
+    height: 35px;
+    font-size: 20px;
+    padding: 0;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #000;
+    background: transparent;
+}
+form.form-modal button:hover{
+    color: #508df5;
+    border-color:#508df5 ;
+}
+.close{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 34px;
+    top: -70px;
+}
+.close:before,
+.close:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: #ffffff;
+    z-index: 99999;
+}
+.close:after{
+    transform: rotate(-45deg)
+}
+.close:before{
+    transform: rotate(45deg)
+}
+/*/modal form*/
+
