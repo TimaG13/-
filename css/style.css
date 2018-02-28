@@ -43,9 +43,30 @@ span{
 
 
 
+.list-wrapper{
+    width: 900px;
+}
+.list-wrapper ul.list{
+    display: inline-block;
+}
+.list-wrapper .list:nth-last-child(2){
+    margin: 0 120px;
+}
+.mg-bottom{
+    margin-bottom: 30px;
+}
+.list-wrapper ul.list li p{
+    font-size: 20px;
+}
+.paragraph-wrapper{
+    width: 900px;
 
+}
 .color-blue{
     color: #508df5;
+}
+.slu-list li{
+    font-family: "Century Gothic-regular",sans-serif;
 }
 .slu-list p{
     font-size: 18px;
@@ -54,6 +75,17 @@ span{
     font-weight: bold;
     letter-spacing: 1.3px;
     margin-bottom: 50px;
+}
+.list-width{
+    font-size: 16px;
+}
+strong.strong-h{
+    font-family: "Century Gothic-Bold",sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-left: 70px;
+    display: block;
 }
 .br-left{
     height: 30px;
@@ -87,9 +119,6 @@ span{
     margin: 50px 0;
     text-transform: uppercase;
     font-family: "Arial Black",sans-serif;
-}
-ul.list{
-    padding-left: 140px;
 }
 p{
     font-size: 18px;
@@ -175,10 +204,18 @@ form.form-modal button:hover{
     z-index: 99999;
 }
 .close:after{
-    transform: rotate(-45deg)
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
 }
 .close:before{
-    transform: rotate(45deg)
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
 }
 /*/modal form*/
 
