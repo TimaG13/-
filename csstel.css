@@ -59,3 +59,20 @@ i.glyphicon.glyphicon-earphone.icon-phone{
     font-size: 38px;
     color: #ffffff;
 }
+#popup__toggle{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    #popup__toggle{
+        display: block;
+    }
+}
+:root{
+    --mein-color:#238;
+}
+.tim{
+    background: var(--mein-color);
+}
+
+
+
