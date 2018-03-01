@@ -133,7 +133,12 @@ ul.slu-list li p{
 .slu-list{
     margin-bottom: 50px;
 }
-
+.icon-sti{
+    width: 60px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 50px;
+}
 
 /*modal form*/
 .mr-top{
